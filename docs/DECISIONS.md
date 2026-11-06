@@ -1,6 +1,6 @@
 ---
 doc: DECISIONS
-last_verified_commit: e543be0
+last_verified_commit: 9aa04b2
 last_updated: 2026-11-05
 owner: Harris Shamsi
 status: draft
