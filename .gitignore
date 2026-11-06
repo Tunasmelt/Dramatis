@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+envs/
+.venv/
+runs/
+out/
+node_modules/
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+voices/own/
+spike/audio/
+*.wav
+.claude/data/
+.claude/settings.local.json
