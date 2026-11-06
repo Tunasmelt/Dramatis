@@ -12,9 +12,9 @@ Overwritten at the end of every session. Keep it short.
 
 ## State
 
-- Phase: 0 (Spike + harness), not started. v4 docs set written; no code, no repo yet.
+- Phase: 0 (Spike + harness), M0.0 in progress. Repo now at WSL ~/Dramatis (git init + 2 docs commits done 2026-11-07). The C: copy is stale; work only in WSL.
 - Docs review fixes applied 2026-11-07 (ADR-028, ADR-029, M0.4/M0.5 swap, wer thresholds moved to M0.9). CLAUDE.md updated to match. Consistency re-read done: stale refs fixed (COMP-12).
-- Next: M0.0 — author moves repo into the WSL home, adds `.gitattributes`, `git init`, GitHub remote, signing key + `allowed_signers`, docs commits, tag `gates-draft-p0`; agent drafts gate harness; author reviews and locks `gates-locked-p0`.
+- Next (author): GitHub remote + push; signing key + `scripts/gates/allowed_signers`; tag `gates-draft-p0`. Then agent drafts the gate harness; author locks `gates-locked-p0`. Tooling gap: `uv` and `gh` not installed in Ubuntu; python3 is 3.12 (uv provides 3.11).
 
 ## Open choices (author decides)
 
